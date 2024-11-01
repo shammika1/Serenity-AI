@@ -2,6 +2,12 @@
 
 This is a Flask-based web application that generates music using Serenity deep learning LSTM models developed using TF/Keras. The application allows users to generate musical sequences using different pre-trained models and convert them into playable audio.
 
+![Alt Text](web-interface.jpeg)
+
+##How it works
+
+![Video Title](Serenity_Demo.mp4)
+
 ## Prerequisites
 
 Before running the application, make sure you have the following installed:
