@@ -17,12 +17,7 @@ Before running the application, make sure you have the following installed:
 
 ## Installation
 
-1. Clone the repository or unzip the project folder:
-
-```bash
-git clone <repository-url>
-cd <project-folder>
-```
+1. Download the project file from this [Google Drive link](https://drive.google.com/file/d/1h_PR_CbWanIUbXDkKWvEqc63u3WFqAJs/view?usp=sharing)
 
 2. Create and activate a virtual environment (recommended):
 
@@ -50,6 +45,7 @@ project/
 ├── model/
 │   ├── q1/
 │   │   └── music_generation_model_maestro.h5
+│   │   └── val_sequences.npy
 │   ├── q4/
 │   │   ├── music_generation_model_maestro.h5
 │   │   └── val_sequences.npy
