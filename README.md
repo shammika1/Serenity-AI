@@ -1,6 +1,6 @@
 # Serenity AI emotion-based Music Generation Web App
 
-This is a Flask-based web application that generates music using deep learning models. The application allows users to generate musical sequences using different pre-trained models and convert them into playable audio.
+This is a Flask-based web application that generates music using Serenity deep learning LSTM models developed using TF/Keras. The application allows users to generate musical sequences using different pre-trained models and convert them into playable audio.
 
 ## Prerequisites
 
