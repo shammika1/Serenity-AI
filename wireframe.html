@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serenity - AI Emotion-based Music Generation (Wireframe)</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+      }
+      header {
+        background: #ddd;
+        padding: 1rem;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      .section {
+        background: #fff;
+        margin: 20px 0;
+        padding: 20px;
+        border: 1px solid #ddd;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .button {
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+      }
+      footer {
+        background: #ddd;
+        padding: 1rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>Serenity Logo</div>
+        <div>
+          <a href="#about">About</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#generate">Generate Music</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section id="hero" class="section">
+        <h1>Welcome to Serenity</h1>
+        <p>Experience AI-driven emotion-based music generation</p>
+        <a href="#generate" class="button">Get Started</a>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About Serenity</h2>
+        <p>Description of Serenity and its AI-powered music generation</p>
+      </section>
+
+      <section id="how-it-works" class="section">
+        <h2>How It Works</h2>
+        <div class="grid">
+          <div>Select Your Emotion</div>
+          <div>AI Composition</div>
+          <div>Listen & Experience</div>
+        </div>
+      </section>
+
+      <section id="generate" class="section">
+        <h2>Generate Your Music</h2>
+        <div class="grid">
+          <div>
+            <h3>Sadness</h3>
+            <p>Description</p>
+            <button>Generate Music</button>
+          </div>
+          <div>
+            <h3>Anger</h3>
+            <p>Description</p>
+            <button>Generate Music</button>
+          </div>
+          <div>
+            <h3>Anxiety</h3>
+            <p>Description</p>
+            <button>Generate Music</button>
+          </div>
+        </div>
+      </section>
+
+      <div id="loadingMessage" class="section" style="">
+        <p>Generating Music...</p>
+      </div>
+
+      <div id="errorMessage" class="section" style="">
+        <p>Error occurred while generating music</p>
+      </div>
+
+      <div id="audioPlayerContainer" class="section" style="">
+        <h3>Your Generated Music</h3>
+        <div>Audio Player Placeholder</div>
+      </div>
+
+      <div id="feedbackSection" class="section" style="">
+        <h3>We'd Love Your Feedback!</h3>
+        <button>Share Your Feedback</button>
+      </div>
+
+      <section id="faq" class="section">
+        <h2>Frequently Asked Questions</h2>
+        <div>
+          <h3>Question 1</h3>
+          <p>Answer 1</p>
+        </div>
+        <div>
+          <h3>Question 2</h3>
+          <p>Answer 2</p>
+        </div>
+        <div>
+          <h3>Question 3</h3>
+          <p>Answer 3</p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Serenity AI Music Generation. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
